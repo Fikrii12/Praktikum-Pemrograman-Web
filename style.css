@@ -1,0 +1,222 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: relative;
+    background-color: coral;
+    
+}
+.foto{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border-radius: 55%;
+    width: 15%;
+    height: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.nama{
+    font-family: monaco, monospace;
+    position: relative;
+    left: 270px;
+    bottom: 120px;
+    width: 700px;
+    height: 100px;
+    text-align: justify;
+}
+
+.ul-navbar{
+    background-color: #A43820;
+    display: flex;
+    height: 55px;
+    justify-content: right;
+    align-items: right;
+    font-weight: bold;
+    font-family: monaco, monospace;
+}
+
+.li-navbar{
+    color: white;
+    list-style-type:none;
+    padding: 20px;
+    width: 120px;
+    height: 20px;
+}
+
+.li-navbar:hover{
+    background-color: chocolate ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    transition: .1s ease-in-out;
+    transition-delay: .1s;
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(241, 217, 199);
+    font-family: monaco, monospace;
+}
+
+.tentang-paragraf{
+    position: relative;
+    background-color:rgb(204, 190, 181);
+    line-height:1.5;
+    text-indent: 50px;
+    width: 500px;
+    padding: 17px;
+    top: 60px;
+    left: 60px;
+    border-radius: 5px;
+    text-align:justify;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.tentang-judul{
+    background-color:coral;
+    position: relative;
+    top: 40px;
+    left: 35px;
+    width: 14%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+video{
+    position: relative;
+    background-color:rgb(204, 190, 181);
+    left: 700px;
+    border-radius: 10px;
+    bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pengalaman-judul{
+    position: relative;
+    top: 10px;
+    left: 35px;
+    background-color:coral;
+    width: 13%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pengalaman-tabel{
+    position: relative;
+    background-color:rgb(204, 190, 181);
+    top: 55px;
+    left: 60px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+.pengalaman-tabel tr th{
+    background-color: coral;
+}
+
+.pengalaman-tabel, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 8px ;
+}
+.tabel-pp{
+    padding: 8px 70px;
+    text-align: left;
+}
+
+.tabel-waktu, td{
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.sekolah{
+    position: relative;
+    background-color:rgb(204, 190, 181);
+    top: 35px;
+    left: 60px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.sekolah th{
+    background-color: coral;
+}
+
+.sekolah-tingkat{
+    text-align: left;
+}
+
+.hubungi{
+    background-color:rgb(204, 190, 181);
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 40px;border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 10px;
+    left: 60px;
+}
+
+.hubungi-judul{
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+    background-color:coral;
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hubungi-input{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.hubungi-input input{
+    position: relative;
+    top: 25px;
+    right: 45px;
+    padding: 3px;
+    border-radius: 4px;
+    width: 300px;
+    background-color: rgb(241, 217, 199);
+    font-family:  monaco, monospace;
+}
+
+.hubungi-radio{
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.hubungi-checkbox{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.hubungi-kirim input{
+    position: relative;
+    top: 20px;
+    left: 125px;
+    width: 250px;
+    border-radius: 4px;
+    padding: 5px;
+    font-family:  monaco, monospace;
+    background-color:coral;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
