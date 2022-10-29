@@ -6,12 +6,12 @@ html{
 
 .header{
     position: relative;
-    background-color: coral;
+    background-color: rgb(246, 149, 114);
     
 }
 .foto{
     position: relative;
-    top: 30px;
+    top: 80px;
     left: 30px;
     border-radius: 55%;
     width: 15%;
@@ -23,21 +23,25 @@ html{
 .nama{
     font-family: monaco, monospace;
     position: relative;
-    left: 270px;
-    bottom: 120px;
+    left: 290px;
+    bottom: 80px;
     width: 700px;
     height: 100px;
     text-align: justify;
 }
 
 .ul-navbar{
-    background-color: #A43820;
+    background-color: #bf6753;
     display: flex;
     height: 55px;
     justify-content: right;
     align-items: right;
     font-weight: bold;
     font-family: monaco, monospace;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .li-navbar{
@@ -46,14 +50,16 @@ html{
     padding: 20px;
     width: 120px;
     height: 20px;
+    
 }
 
 .li-navbar:hover{
-    background-color: chocolate ;
+    background-color: rgb(246, 149, 114);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     transition: .1s ease-in-out;
     transition-delay: .1s;
+    
 }
 
 .a-navbar{
@@ -82,7 +88,7 @@ main{
 }
 
 .tentang-judul{
-    background-color:coral;
+    background-color: rgb(246, 149, 114);
     position: relative;
     top: 40px;
     left: 35px;
@@ -105,7 +111,7 @@ video{
     position: relative;
     top: 10px;
     left: 35px;
-    background-color:coral;
+    background-color: rgb(246, 149, 114);
     width: 13%;
     text-align: center;
     border-radius: 5px;
@@ -119,11 +125,12 @@ video{
     left: 60px;
     border-collapse: collapse;
     border: 1px solid black;
+    
 }
 
 
 .pengalaman-tabel tr th{
-    background-color: coral;
+    background-color: rgb(246, 149, 114);
 }
 
 .pengalaman-tabel, th, td{
@@ -151,7 +158,7 @@ video{
 }
 
 .sekolah th{
-    background-color: coral;
+    background-color: rgb(246, 149, 114);
 }
 
 .sekolah-tingkat{
@@ -173,7 +180,7 @@ video{
     position: relative;
     bottom: 20px;
     left: 35px;
-    background-color:coral;
+    background-color: rgb(246, 149, 114);
     width: 15%;
     text-align: center;
     border-radius: 5px;
@@ -217,6 +224,6 @@ video{
     border-radius: 4px;
     padding: 5px;
     font-family:  monaco, monospace;
-    background-color:coral;
+    background-color: rgb(246, 149, 114);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
