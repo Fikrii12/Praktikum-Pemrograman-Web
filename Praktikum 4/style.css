@@ -73,6 +73,13 @@ html{
     text-decoration: none;
 }
 
+
+.li-navbar img{
+    position: relative;
+    bottom: 6px;
+}
+    
+
 main{
     background-color: rgb(241, 217, 199);
     font-family: monaco, monospace;
@@ -338,4 +345,36 @@ table{
     }
 
 
+}
+
+
+
+
+    
+
+.darkmode main{
+    background: #3e3939;
+    color: white;
+}
+
+.darkmode h2{
+    color: black;
+}
+
+.darkmode main p{
+    background: #3e3939;
+    color: white;
+}
+
+.darkmode table thead{
+    color: black;
+}
+.darkmode table tbody{
+    background: #3e3939;
+    color: white;
+    border-color: white;
+}
+.darkmode form{
+    background: #3e3939;
+    color: white;
 }
