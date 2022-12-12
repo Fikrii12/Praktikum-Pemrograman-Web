@@ -231,12 +231,14 @@ table{
     position: relative;
     top: 40px;
     left: 10px;
+    width: 400px;
 }
 
 .hubungi-checkbox{
     position: relative;
     top: 30px;
     left: 10px;
+    width: 400px;
 }
 
 .hubungi-kirim input{
