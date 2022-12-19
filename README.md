@@ -1,4 +1,4 @@
-# Tugas-Praktikum-2
+# Tugas-Praktikum
 
 Nurul Fikri
 120140053
