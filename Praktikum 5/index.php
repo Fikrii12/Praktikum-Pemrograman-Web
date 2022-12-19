@@ -26,7 +26,7 @@
             let data = $("#form_mahasiswa").serialize();
             $.ajax({
             type : "POST",
-            url : "tambah.php",
+            url : "tampil.php",
             data : data,
             success : function (response) {
             $("#tampil_data").load("tampil.php");

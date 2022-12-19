@@ -7,7 +7,7 @@
     </tr>
 <?php
 include "koneksi.php";
-    $query = "SELECT * FROM mhs ORDER BY nim ASC";
+    $query = "SELECT * FROM mahasiswa ORDER BY nim ASC";
     $result = mysqli_query($connection, $query);
     $i = 0;
     while ($data = mysqli_fetch_array($result)) :
